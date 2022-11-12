@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RadioButton</string>
+    <string name="rb_boy">男</string>
+    <string name="rb_girl">女</string>
+    <string name="single">單選</string>
+    <string name="btn_single">查詢結果</string>
+    <string name="tv_result">尚無結果</string>
+    <string name="convert">單位換算</string>
+    <string name="rb_mi">英里MI</string>
+    <string name="rb_km">公里KM</string>
+    <string name="tv_km">公里/小時</string>
+    <string name="tv_mi">英里/小時</string>
+</resources>
