@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/hobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:text="@string/hobby"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/dance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dance"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/hobby"
+        app:layout_constraintTop_toBottomOf="@+id/hobby"/>
+
+    <CheckBox
+        android:id="@+id/study"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/study"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/hobby"
+        app:layout_constraintTop_toBottomOf="@+id/hobby"/>
+
+    <CheckBox
+        android:id="@+id/paint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paint"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/dance"
+        app:layout_constraintTop_toBottomOf="@+id/dance"/>
+
+    <CheckBox
+        android:id="@+id/computer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/computer"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/study"
+        app:layout_constraintTop_toBottomOf="@+id/study"/>
+
+    <Button
+        android:id="@+id/btn_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="@string/btn_result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/computer" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_result"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_result"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
