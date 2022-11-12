@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CheckBox</string>
+    <string name="hobby">興趣</string>
+    <string name="dance">跳舞</string>
+    <string name="study">讀書</string>
+    <string name="paint">畫畫</string>
+    <string name="computer">玩電腦</string>
+    <string name="btn_result">結果</string>
+    <string name="tv_result">你484沒興趣</string>
+</resources>
